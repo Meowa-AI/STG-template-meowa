@@ -71,12 +71,6 @@ The README GIFs are prebuilt 2x nearest-neighbor exports from the in-game 64x64 
 | Scarab | ![Scarab sprite](assets/sprites/scarab.png) | ![Scarab idle animation](assets/readme/characters/scarab_idle.gif) | ![Scarab attack animation](assets/readme/characters/scarab_attack.gif) | ![Scarab hit animation](assets/readme/characters/scarab_hit.gif) |
 | Hornet Leader | ![Hornet Leader sprite](assets/sprites/hornet_leader.png) | ![Hornet Leader idle animation](assets/readme/characters/hornet_leader_idle.gif) | ![Hornet Leader attack animation](assets/readme/characters/hornet_leader_attack.gif) | ![Hornet Leader hit animation](assets/readme/characters/hornet_leader_hit.gif) |
 
-Local raw generation logs and intermediate outputs are intentionally ignored:
-
-- `outputs/`
-- `.agents/skills/game-assets/.meow_art/`
-- `.env`
-
 To regenerate assets, set a Meowa API key locally:
 
 ```bash
@@ -230,12 +224,6 @@ README 里的 GIF 是从游戏内 `64x64` 动作 spritesheet 用最近邻整数 
 | Scorpion | ![Scorpion 静态精灵](assets/sprites/scorpion.png) | ![Scorpion 待机动图](assets/readme/characters/scorpion_idle.gif) | ![Scorpion 攻击动图](assets/readme/characters/scorpion_attack.gif) | ![Scorpion 受击动图](assets/readme/characters/scorpion_hit.gif) |
 | Scarab | ![Scarab 静态精灵](assets/sprites/scarab.png) | ![Scarab 待机动图](assets/readme/characters/scarab_idle.gif) | ![Scarab 攻击动图](assets/readme/characters/scarab_attack.gif) | ![Scarab 受击动图](assets/readme/characters/scarab_hit.gif) |
 | Hornet Leader | ![Hornet Leader 静态精灵](assets/sprites/hornet_leader.png) | ![Hornet Leader 待机动图](assets/readme/characters/hornet_leader_idle.gif) | ![Hornet Leader 攻击动图](assets/readme/characters/hornet_leader_attack.gif) | ![Hornet Leader 受击动图](assets/readme/characters/hornet_leader_hit.gif) |
-
-本地原始生成记录和中间产物不会提交到仓库：
-
-- `outputs/`
-- `.agents/skills/game-assets/.meow_art/`
-- `.env`
 
 如果需要重新生成资产，可以在本地配置 Meowa API key：
 
