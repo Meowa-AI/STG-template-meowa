@@ -56,6 +56,21 @@ The project uses generated assets as first-class production files, not placehold
 | Title art | `assets/ui/title_bg.png` | Image generation |
 | Music and sound effects | `assets/audio/` | Music and SFX generation |
 
+### Character sprites and animations
+
+The README GIFs are prebuilt 2x nearest-neighbor exports from the in-game 64x64 animation sheets, so GitHub can show them directly without non-integer display scaling.
+
+| Unit | Static sprite | Idle | Attack | Hit |
+| --- | --- | --- | --- | --- |
+| Prime Mech | ![Prime Mech sprite](assets/sprites/prime.png) | ![Prime Mech idle animation](assets/readme/characters/prime_idle.gif) | ![Prime Mech attack animation](assets/readme/characters/prime_attack.gif) | ![Prime Mech hit animation](assets/readme/characters/prime_hit.gif) |
+| Artillery Mech | ![Artillery Mech sprite](assets/sprites/artillery.png) | ![Artillery Mech idle animation](assets/readme/characters/artillery_idle.gif) | ![Artillery Mech attack animation](assets/readme/characters/artillery_attack.gif) | ![Artillery Mech hit animation](assets/readme/characters/artillery_hit.gif) |
+| Science Mech | ![Science Mech sprite](assets/sprites/science.png) | ![Science Mech idle animation](assets/readme/characters/science_idle.gif) | ![Science Mech attack animation](assets/readme/characters/science_attack.gif) | ![Science Mech hit animation](assets/readme/characters/science_hit.gif) |
+| Hornet | ![Hornet sprite](assets/sprites/hornet.png) | ![Hornet idle animation](assets/readme/characters/hornet_idle.gif) | ![Hornet attack animation](assets/readme/characters/hornet_attack.gif) | ![Hornet hit animation](assets/readme/characters/hornet_hit.gif) |
+| Firefly | ![Firefly sprite](assets/sprites/firefly.png) | ![Firefly idle animation](assets/readme/characters/firefly_idle.gif) | ![Firefly attack animation](assets/readme/characters/firefly_attack.gif) | ![Firefly hit animation](assets/readme/characters/firefly_hit.gif) |
+| Scorpion | ![Scorpion sprite](assets/sprites/scorpion.png) | ![Scorpion idle animation](assets/readme/characters/scorpion_idle.gif) | ![Scorpion attack animation](assets/readme/characters/scorpion_attack.gif) | ![Scorpion hit animation](assets/readme/characters/scorpion_hit.gif) |
+| Scarab | ![Scarab sprite](assets/sprites/scarab.png) | ![Scarab idle animation](assets/readme/characters/scarab_idle.gif) | ![Scarab attack animation](assets/readme/characters/scarab_attack.gif) | ![Scarab hit animation](assets/readme/characters/scarab_hit.gif) |
+| Hornet Leader | ![Hornet Leader sprite](assets/sprites/hornet_leader.png) | ![Hornet Leader idle animation](assets/readme/characters/hornet_leader_idle.gif) | ![Hornet Leader attack animation](assets/readme/characters/hornet_leader_attack.gif) | ![Hornet Leader hit animation](assets/readme/characters/hornet_leader_hit.gif) |
+
 Local raw generation logs and intermediate outputs are intentionally ignored:
 
 - `outputs/`
@@ -200,6 +215,21 @@ Use this repository as a base if you want:
 | HUD 面板和图标 | `assets/ui/generated_hud_pixel_meowa/` | 像素 UI 生成和切图 |
 | 标题图 | `assets/ui/title_bg.png` | 图像生成 |
 | 音乐和音效 | `assets/audio/` | 音乐和 SFX 生成 |
+
+### 角色精灵和动图
+
+README 里的 GIF 是从游戏内 `64x64` 动作 spritesheet 用最近邻整数 2x 预先导出的，因此 GitHub 可以直接展示，不需要非整数显示缩放。
+
+| 单位 | 静态精灵 | 待机 | 攻击 | 受击 |
+| --- | --- | --- | --- | --- |
+| Prime Mech | ![Prime Mech 静态精灵](assets/sprites/prime.png) | ![Prime Mech 待机动图](assets/readme/characters/prime_idle.gif) | ![Prime Mech 攻击动图](assets/readme/characters/prime_attack.gif) | ![Prime Mech 受击动图](assets/readme/characters/prime_hit.gif) |
+| Artillery Mech | ![Artillery Mech 静态精灵](assets/sprites/artillery.png) | ![Artillery Mech 待机动图](assets/readme/characters/artillery_idle.gif) | ![Artillery Mech 攻击动图](assets/readme/characters/artillery_attack.gif) | ![Artillery Mech 受击动图](assets/readme/characters/artillery_hit.gif) |
+| Science Mech | ![Science Mech 静态精灵](assets/sprites/science.png) | ![Science Mech 待机动图](assets/readme/characters/science_idle.gif) | ![Science Mech 攻击动图](assets/readme/characters/science_attack.gif) | ![Science Mech 受击动图](assets/readme/characters/science_hit.gif) |
+| Hornet | ![Hornet 静态精灵](assets/sprites/hornet.png) | ![Hornet 待机动图](assets/readme/characters/hornet_idle.gif) | ![Hornet 攻击动图](assets/readme/characters/hornet_attack.gif) | ![Hornet 受击动图](assets/readme/characters/hornet_hit.gif) |
+| Firefly | ![Firefly 静态精灵](assets/sprites/firefly.png) | ![Firefly 待机动图](assets/readme/characters/firefly_idle.gif) | ![Firefly 攻击动图](assets/readme/characters/firefly_attack.gif) | ![Firefly 受击动图](assets/readme/characters/firefly_hit.gif) |
+| Scorpion | ![Scorpion 静态精灵](assets/sprites/scorpion.png) | ![Scorpion 待机动图](assets/readme/characters/scorpion_idle.gif) | ![Scorpion 攻击动图](assets/readme/characters/scorpion_attack.gif) | ![Scorpion 受击动图](assets/readme/characters/scorpion_hit.gif) |
+| Scarab | ![Scarab 静态精灵](assets/sprites/scarab.png) | ![Scarab 待机动图](assets/readme/characters/scarab_idle.gif) | ![Scarab 攻击动图](assets/readme/characters/scarab_attack.gif) | ![Scarab 受击动图](assets/readme/characters/scarab_hit.gif) |
+| Hornet Leader | ![Hornet Leader 静态精灵](assets/sprites/hornet_leader.png) | ![Hornet Leader 待机动图](assets/readme/characters/hornet_leader_idle.gif) | ![Hornet Leader 攻击动图](assets/readme/characters/hornet_leader_attack.gif) | ![Hornet Leader 受击动图](assets/readme/characters/hornet_leader_hit.gif) |
 
 本地原始生成记录和中间产物不会提交到仓库：
 

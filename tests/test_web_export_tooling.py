@@ -80,6 +80,18 @@ def test_title_cta_does_not_use_fractional_runtime_scale() -> None:
     assert "Vector2(1.02, 1.02)" not in title
 
 
+def test_game_title_uses_into_the_meowa() -> None:
+    title = read("src/view/screens/title_screen.gd")
+    project = read("project.godot")
+    web_chat = read("tools/web_chat.html")
+    assert '"INTO THE MEOWA"' in title
+    assert 'config/name="Into the Meowa"' in project
+    assert "Into the Meowa" in web_chat
+    assert "INTO THE BREACH" not in title
+    assert "ItB Demo" not in project
+    assert "ItB Demo" not in web_chat
+
+
 if __name__ == "__main__":
     tests = [
         test_web_export_preset_exists,
@@ -90,6 +102,7 @@ if __name__ == "__main__":
         test_web_canvas_resize_is_controlled_by_pixel_viewport_shell,
         test_pixel_viewport_shell_keeps_godot_canvas_fixed_size,
         test_title_cta_does_not_use_fractional_runtime_scale,
+        test_game_title_uses_into_the_meowa,
     ]
     for test in tests:
         test()

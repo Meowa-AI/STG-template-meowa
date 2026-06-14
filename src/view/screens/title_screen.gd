@@ -37,7 +37,7 @@ func _ready() -> void:
 	embers.color_ramp = ramp
 	add_child(embers)
 
-	var title := UiKit.label("INTO THE BREACH", 64)
+	var title := UiKit.label("INTO THE MEOWA", 64)
 	title.add_theme_constant_override("shadow_offset_x", 3)
 	title.add_theme_constant_override("shadow_offset_y", 3)
 	title.custom_minimum_size = Vector2(1280, 0)

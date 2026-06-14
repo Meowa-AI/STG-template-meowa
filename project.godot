@@ -3,7 +3,7 @@ config_version=5
 
 [application]
 
-config/name="ItB Demo"
+config/name="Into the Meowa"
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.6")
 
